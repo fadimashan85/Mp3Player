@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "180615039371",
+    "firebase_url": "https://mp3player-802c5.firebaseio.com",
+    "project_id": "mp3player-802c5",
+    "storage_bucket": "mp3player-802c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180615039371:android:ae125c5c79ed665970478e",
+        "android_client_info": {
+          "package_name": "se.mobileinteraction.mp3player"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180615039371-vvnt2hestmiafqfcc1lcs77nd969ade1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.mobileinteraction.mp3player",
+            "certificate_hash": "bce7b757d4958669d4d8459bc3de2ffdec86d3de"
+          }
+        },
+        {
+          "client_id": "180615039371-ll7bu3fr2b22ce6plojajube3kipof53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc2WXf8dgDDQhWO0a54wdBcB-WQZ8lmNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180615039371-ll7bu3fr2b22ce6plojajube3kipof53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180615039371:android:635dffe13f38674570478e",
+        "android_client_info": {
+          "package_name": "se.mobileinteraction.mp3player.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180615039371-ufhlakqcvrdqpfhhc267q1qfjdjcgkbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "se.mobileinteraction.mp3player.dev",
+            "certificate_hash": "bce7b757d4958669d4d8459bc3de2ffdec86d3de"
+          }
+        },
+        {
+          "client_id": "180615039371-ll7bu3fr2b22ce6plojajube3kipof53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc2WXf8dgDDQhWO0a54wdBcB-WQZ8lmNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180615039371-ll7bu3fr2b22ce6plojajube3kipof53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
