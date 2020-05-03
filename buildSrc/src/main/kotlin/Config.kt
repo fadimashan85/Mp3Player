@@ -1,5 +1,5 @@
 object Versions {
-    const val androidGradle = "3.5.2"
+    const val androidGradle = "4.0.0-beta04"
     const val kotlinGradle = "1.3.61"
     const val fragmentVersion = "1.2.0"
     const val design = "28.0.0"
@@ -16,7 +16,7 @@ object Versions {
     const val rxJava = "2.2.14"
     const val rxAndroid = "2.1.1"
     const val rxKotlin = "2.4.0"
-    const val koin = "2.0.1"
+    const val koin = "2.1.3"
     const val material = "1.1.0-beta02"
     const val androidxCompat = "1.0.0"
     const val navigationSafeArgs = "2.1.0"
@@ -84,6 +84,9 @@ object Deps {
 
     const val koin = "org.koin:koin-android:${Versions.koin}"
     const val koinViewModel = "org.koin:koin-androidx-viewmodel:${Versions.koin}"
+    const val koinScope = "org.koin:koin-androidx-scope:${Versions.koin}"
+    const val koinFragment= "org.koin:koin-androidx-fragment:${Versions.koin}"
+
 
     const val junit = "junit:junit:${Versions.junit}"
     const val testCore = "androidx.test:core:${Versions.testCore}"
@@ -99,7 +102,6 @@ object Deps {
 
     const val androidOss =
         "com.google.android.gms:play-services-oss-licenses:${Versions.androidOss}"
-//    const val markerBuilder = "com.tomtom.online:sdk-maps:${Versions.markerBuilder}"
 
     const val permissions = "pub.devrel:easypermissions:${Versions.permission}"
     const val androidTestRule = "androidx.test:rules:1.2.0"

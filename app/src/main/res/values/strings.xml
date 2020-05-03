@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MP3Player</string>
+    <string name="app_name">REC Voice</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -16,6 +16,24 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="facebook_app_id">212112156492274</string>
+
+
+    <string name="main_menu_list">Recored</string>
+    <string name="main_menu_favourites">Favourites</string>
+    <string name="main_menu_about">About</string>
+    <string name="album_title">Album Title</string>
+    <string name="rename_track">Rename track</string>
+    <string name="change_tags">Change Tags</string>
+    <string name="change_name">Change the file name</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album_name">Album Name</string>
+    <string name="storage">Storage</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="online_storage">Online Storage</string>
+    <string name="records_list">Records list</string>
+    <string name="msg_token_fmt">Generating InstanceID token…</string>
 </resources>

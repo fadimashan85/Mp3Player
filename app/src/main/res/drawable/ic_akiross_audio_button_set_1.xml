@@ -1,0 +1,30 @@
+<vector android:height="24dp" android:viewportHeight="50.308"
+    android:viewportWidth="50.308" android:width="24dp"
+    xmlns:aapt="http://schemas.android.com/aapt" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:pathData="m49.3339,25.1525a24.1546,24.155 90.1023,1 1,-0.0068 -0.4979"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="2.9567">
+        <aapt:attr name="android:fillColor">
+            <gradient android:centerX="25.178291"
+                android:centerY="32.087578"
+                android:gradientRadius="22.206154" android:type="radial">
+                <item android:color="#FFF5E382" android:offset="0"/>
+                <item android:color="#FFC3AF3F" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:strokeColor">
+            <gradient android:endX="25.157879" android:endY="0.13066699"
+                android:startX="25.157879" android:startY="50.97128" android:type="linear">
+                <item android:color="#FFC2AB45" android:offset="0"/>
+                <item android:color="#FF8C7D3F" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillAlpha="0.5" android:fillColor="#000000"
+        android:pathData="m19.2693,13.9872c-2.1635,0 -3.8875,1.6705 -3.8875,3.7586l0,17.6077c0,2.0768 1.724,3.7586 3.8875,3.7586 2.1522,0 3.8762,-1.6818 3.8762,-3.7586l0,-17.6077c0,-2.0881 -1.724,-3.7586 -3.8762,-3.7586zM33.0839,13.9872c-2.1635,0 -3.8875,1.6705 -3.8875,3.7586l0,17.6077c0,2.0768 1.724,3.7586 3.8875,3.7586 2.1522,0 3.8762,-1.6818 3.8762,-3.7586l0,-17.6077c0,-2.0881 -1.724,-3.7586 -3.8762,-3.7586z"
+        android:strokeAlpha="0.5" android:strokeColor="#000000"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeWidth="1.6394"/>
+
+    <path android:pathData="m41.4424,15.3427a12.5554,16.2627 90,1 1,-32.5212 0,12.5554 16.2627,90 1,1 32.5212,0z"/>
+    <path android:pathData="m5.0604,34.902c4.8114,10.6775 17.2175,15.8357 28.2489,11.524 11.0201,-4.3116 16.6428,-16.5016 12.9469,-27.608 -2.9973,7.5171 -8.9806,13.804 -17.1048,16.9869 -8.1242,3.1716 -16.7893,2.596 -24.091,-0.903z"/>
+</vector>

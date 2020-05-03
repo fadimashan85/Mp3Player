@@ -2,6 +2,7 @@ apply(plugin = "com.google.android.gms.oss-licenses-plugin")
 apply(plugin = "com.google.gms.google-services")
 apply(plugin = "com.android.application")
 
+
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -25,7 +26,13 @@ android {
 
         testOptions {
             animationsDisabled = true
+//            unitTests.isIncludeAndroidResources  = true
+
         }
+//        tasks.withType<Test> {
+//            useJUnitPlatform()
+//        }
+
     }
 
 
@@ -128,6 +135,8 @@ dependencies {
 
     implementation(Deps.glide)
     implementation("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
     kapt(Deps.glideAnnotation)
 
     implementation(Deps.httpLogger)
@@ -144,6 +153,9 @@ dependencies {
 
     implementation(Deps.koin)
     implementation(Deps.koinViewModel)
+    implementation(Deps.koinScope)
+    implementation(Deps.koinFragment)
+
 
     implementation(Deps.timber)
     implementation(Deps.androidOss)
@@ -153,12 +165,34 @@ dependencies {
     implementation(Deps.permissions)
     implementation("androidx.preference:preference-ktx:1.1.0")
     implementation("androidx.preference:preference-ktx:1.1.0")
-    implementation("com.google.firebase:firebase-analytics:17.2.2")
+    implementation("com.google.firebase:firebase-analytics:17.2.3")
     implementation("com.google.firebase:firebase-auth:19.2.0")
-    implementation("com.google.firebase:firebase-core:17.2.2")
+    implementation("com.google.firebase:firebase-core:17.2.3")
+    implementation("com.google.firebase:firebase-messaging:20.1.2")
+
     implementation("com.firebaseui:firebase-ui-auth:4.3.1")
     implementation("com.facebook.android:facebook-android-sdk:5.15.0")
+    implementation("com.xwray:groupie:2.1.0")
+    implementation("com.xwray:groupie-kotlin-android-extensions:2.1.0")
+    implementation("com.ealva:ealvatag:0.4.3")
+    implementation("com.squareup.okio:okio:2.4.3")
+    implementation("com.google.guava:guava:28.2-android")
+    implementation("com.github.squti:Android-Wave-Recorder:1.4.0")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3")
+    implementation ("androidx.appcompat:appcompat:1.1.0")
+    implementation ("androidx.core:core-ktx:1.2.0")
+    implementation ("com.chibde:audiovisualizer:2.2.0")
+    implementation ("com.tyorikan:voice-recording-visualizer:1.0.3@aar")
+    implementation ("com.facebook.android:facebook-login:5.15.0")
 
+
+    implementation ("com.simplemobiletools:commons:5.18.13")
+    implementation("me.tankery.lib:circularSeekBar:1.1.5")
+    implementation("com.mikhaellopez:circularimageview:3.2.0")
+    implementation("com.google.firebase:firebase-storage:19.1.1")
+
+    //>>>>>>>>>>>>>>
 
     testImplementation(Deps.junit)
     testImplementation(Deps.mockk)
@@ -166,14 +200,26 @@ dependencies {
     testImplementation(Deps.archTesting)
     testImplementation(Deps.livedataTesting)
     testImplementation(Deps.expekt)
+    testImplementation("org.robolectric:robolectric:3.6.1")
+
+
+    //Kotest
+//    testImplementation("org.junit.platform:junit-platform-commons:1.6.0")
+//    testImplementation("org.junit.platform:junit-platform-launcher:1.6.0")
+//    testImplementation("org.junit.vintage:junit-vintage-engine:5.6.0")
+//    testImplementation("org.junit.platform:junit-platform-engine:1.6.0")
+//    testImplementation("io.kotlintest:kotlintest-runner-junit4:3.4.2")
+
 
     androidTestImplementation(Deps.espresso)
-
     androidTestImplementation(Deps.testCore)
     androidTestImplementation(Deps.testRunner)
     androidTestImplementation(Deps.androidTestRule)
     androidTestImplementation(Deps.androidMockk)
     androidTestImplementation("com.agoda.kakao:kakao:2.1.0")
+    androidTestImplementation("io.kotlintest:kotlintest-runner-junit4:3.4.2") { exclude(module = "objenesis") }
+
+
 
 
 }
